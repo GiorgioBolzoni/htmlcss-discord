@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+	--color-accessory: #7585e2;
+	--color-secondary: #ffffff;
+	--color-header-bg: #2a5ee8;
+	--color-primary: #23272a;
+	--color-grey-bg: #f6f6f6;
+}
+body{
+    background-color: var(--color-secondary);
+}
+.debug{
+    border: 1px solid black;
+}
+.bg-blue{
+    background-color: var(--color-header-bg);
+}
+.bg-primary{
+    background-color: var(--color-primary);
+    color: white;
+}
