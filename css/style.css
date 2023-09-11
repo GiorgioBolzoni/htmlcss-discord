@@ -17,11 +17,7 @@ body{
 /* .debug{
     border: 1px solid black;
 } */
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 5px;
-}
+
 
 ul{
     list-style: none;
@@ -37,6 +33,7 @@ a, a:hover{
     background-color: var(--color-secondary);
     border-radius: 25px;
     color: black;
+    
 }
 .bg-primary{
     background-color: var(--color-primary);
@@ -89,12 +86,30 @@ main section{
     background-color: var(--color-grey-bg);
 }
 .text-main{
-    text-align:justify;
-    max-width: 600px;
-    flex-wrap: nowrap;
+    text-align:left;
+    max-width: 350px;
+}
+h2{
+    font-size: 2.2em;
+    margin-bottom: 20px;
 }
 .image{
-    max-width: 600px; 
+    max-width: calc(100% / 2); 
+    min-width: 400px;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+#box-reverse{
+    flex-direction: row-reverse;
+}
+#big-box{
+    flex-direction: column-reverse;
+}
+.big-text{
+    text-align: center;
 }
 
 /* footer */
