@@ -65,7 +65,6 @@ header{
     background-image: url('../img/jumbo.png');
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 0 -100px;
 }
 .hero-content{
     max-width: 800px;
