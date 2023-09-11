@@ -88,9 +88,35 @@ main section{
 .even{
     background-color: var(--color-grey-bg);
 }
+.text-main{
+    text-align:justify;
+    max-width: 600px;
+    flex-wrap: nowrap;
+}
+.image{
+    max-width: 600px; 
+}
 
 /* footer */
 footer{
     background-color: var(--color-primary);
     color: white;
+}
+.footer-top{
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.footer-subtitle{
+    color: var(--color-accessory);
+    font-size: 2em;
+}
+.list-footer{
+    flex-direction: column;
+}
+.list-title{
+    color: var(--color-accessory);
+}
+h3{
+    margin-top: 10px;
+    align-content:start;
 }
