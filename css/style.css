@@ -16,10 +16,15 @@ body{
 .debug{
     border: 1px solid black;
 }
-.bg-blue{
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* header */
+header{
     background-color: var(--color-header-bg);
 }
-.bg-primary{
+footer{
     background-color: var(--color-primary);
     color: white;
 }
