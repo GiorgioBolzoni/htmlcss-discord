@@ -38,9 +38,11 @@ a:hover{
     border-radius: 25px;
     color: black; 
     /* padding: 10px 20px;   */
+    
 }
 a.button:hover{
     text-decoration: none;
+    box-shadow: 0.3px 0.3px 5px 0.5px black;
 }
 .bg-primary{
     background-color: var(--color-primary);
@@ -114,6 +116,7 @@ h2{
 .image{
     max-width: calc(100% / 2); 
     min-width: 400px;
+    margin-bottom: 30px;
 }
 .container{
     max-width: 1200px;
@@ -169,6 +172,7 @@ footer{
 }
 .list-footer{
     flex-direction: column;
+    margin-bottom: 20px;
 }
 .list-title{
     color: var(--color-accessory);
@@ -182,7 +186,9 @@ h3{
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
-    
+    align-items: flex-start;
+    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 #languages-img{
     width: 10%;
@@ -190,13 +196,13 @@ h3{
 }
 #languages{
     margin-left: 5px;
-    width: 60%;
+    width: 40%;
     color: var(--color-secondary);
     background-color: var(--color-primary);
     border-color: transparent;
 }
 .icones{
-    width: 80%;
+    width: 100%;
     justify-content: flex-start;
 }
 .icones > i{
