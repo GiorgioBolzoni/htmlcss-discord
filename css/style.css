@@ -14,9 +14,9 @@ body{
     background-color: var(--color-secondary);
     font-family: 'Noto Sans', sans-serif;
 }
-.debug{
+/* .debug{
     border: 1px solid rgb(224, 3, 3);
-}
+} */
 
 
 ul{
