@@ -36,9 +36,9 @@ a:hover{
     margin: 20px;
     background-color: var(--color-secondary);
     border-radius: 25px;
-    color: black; 
+    color: black;
     /* padding: 10px 20px;   */
-    
+
 }
 a.button:hover{
     text-decoration: none;
@@ -114,7 +114,7 @@ h2{
     margin-bottom: 20px;
 }
 .image{
-    max-width: calc(100% / 2); 
+    max-width: calc(100% / 2);
     min-width: 400px;
     margin-bottom: 30px;
 }
@@ -207,7 +207,7 @@ h3{
 }
 .icones > i{
     margin-right: 30px;
-    
+
 }
 option{
     color: var(--color-secondary);
@@ -226,28 +226,56 @@ hr{
 /* LOGIN PAGE */
 /* LOGIN PAGE */
 
-#log-header{
+/* #log-header{
     padding-bottom: 1%;
     padding-top: 1%;
     background-color: var(--color-primary);
-}
+} */
 #log-body{
     background-color: var(--color-accessory);
     background-image: url('../img/jumbo.png');
     background-repeat: no-repeat;
     background-size: cover;
+    width: 1800px;
+    height: 923PX;
+    /* min-width: 100%; */
+}
+.log-main{
+    width: 1800px;
 }
 .login-box{
-    margin: 100px;
-    padding: 30px 20px;
-    width: 100%;
-    padding: 0;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    justify-content: center;
+    padding: 50px 20px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    max-width: 80%;
+    justify-content: space-around;
+    background-color: #313338;
 }
-.qr-sction{
+.big-left{
+    width: 60%;
+}
+.little-right{
+    width: 40%;
+    justify-content: right;
+}
+.qr-section{
     justify-content: flex-end;
     align-content: center;
 }
-
+#img-qr{
+    display: block;
+    margin: 10px;
+    border-radius: 5px;
+}
+#inp-section{
+    margin-top: 10px;
+}
+.inp-text{
+    background-color: #1E1F22;
+    padding: 4px 2px;
+    border-radius: 5px;
+    color: var(--color-secondary);
+}
+#forgot-pwd{
+    color: #02A3F3;
+}

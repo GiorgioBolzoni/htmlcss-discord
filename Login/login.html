@@ -10,21 +10,35 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Discord</title>
 </head>
-<body id="log-body">
-    <header class="debug" id="log-header">
+<body id="log-body" class="d-flex f-center">
+    <!-- <header class="debug" id="log-header">
         <nav class="container d-flex">
            <img src="../img/logo.svg" alt="Logo-Discord" #logo>
         </nav>
-    </header>
+    </header> -->
 
     <main class="debug" id="log-main">
-        <div class="login-box d-flex f-center container bg-primary">
+        <div class="login-box d-flex container bg-primary">
             <div>
-                <h3>Eccoti qui!</h3>
-                <p>Siamo così felici di vederti qui</p>
+                <div class="big-left">
+                    <div class="d-flex column">
+                        <h3>Eccoti qui!</h3>
+                        <p>Siamo così felici di vederti qui</p>
+                    </div>
+                    <div id="inp-section">
+                        <p>E-MAIL O NUMERO DI TELEFONO</p>
+                        <input type="email" name="email-phone" class="inp-text">
+                    </div>
+                </div>
+                <div>
+                    <p>PASSWORD</p>
+                    <input type="password" name="password" class="inp-text">
+                    <a href="" id="forgot-pwd">Hai dimenticato la tua password?</a>
+                </div>
             </div>
-            <div class="d-flex f-center qr-sction column">
-                <img src="../img/qrcode2023-09-12 175512.png" alt="qrcode">
+
+            <div class="d-flex qr-section column little-right">
+                <img src="../img/qrcode2023-09-12 175512.png" alt="qrcode" id="img-qr">
                 <h5>Accedi con codice QR</h5>
                 <p>Scansionalo con l'<strong>app mobile di Discord</strong> per accedere istantaneamente</p>
             </div>
@@ -32,7 +46,7 @@
          </div>
     </main>
 
-    <footer>
+    <!-- <footer>
         <div class="debug footer-top d-flex  container">
             <div class="d-flex column" id="ft-1div">
                 <h3 class="footer-subtitle column">
@@ -103,6 +117,6 @@
                 Registrati
             </a>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
